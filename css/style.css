@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900');
+
+* {
+    box-sizing: border-box;
+    transition: all .4s ease-in-out;
+}
+html {
+	font-size: 10px;
+	height: 100%;
+    background: #eee;
+}
+body {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+	margin: 0 auto;
+    width: 1200px;
+}
+.header {
+    margin: 2.3rem auto;
+
+}
+.logo {
+	display: inline-block;
+    vertical-align: middle;
+    font-size: 4.8rem;
+    margin: 0;
+    font-weight: 900;
+    color: #000;
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.menu{
+    display: inline-block;
+    /* text-align: right; */
+    font-size: 18px;
+    list-style-type: none;
+    font-weight: 400;
+    
+    
+}
+.menu li {
+    text-align: right;
+	display: inline-block;
+}
+.menu li a {
+    text-align: right;
+    color: #000;
+    padding: 0.48rem 2.5rem;
+    text-decoration: none;
+
+}
+.menu li a:hover,
+.menu li a:focus{
+    opacity: 0.7;
+}
+.blackwhite{
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    text-align: right;
+}
+.blackwhite h1{
+   
+    font: 900 15rem 'Raleway',sans-serif;
+    display: inline-block;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 0.3em 0; 
+}
+.blackwhite div{
+    font: 300 2.4rem 'Raleway',sans-serif;
+    display: inline-block;
+    text-align: right;
+    line-height: 1.5;
+}
+.blackwhite div a{
+    top: 5rem;
+    font: 700 2.4rem 'Raleway',sans-serif;
+    text-align: right;
+    color: #e10011;
+    text-decoration: none;
+}
+.right__side{
+    display: inline-block;
+    width: 37%;
+    margin-left: 4.5rem; 
+    text-align: center; 
+}
+.slider{ 
+    text-align: center;
+}
+.slider ul{
+    padding: 0;
+
+}
+.slider li{
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #000;
+    border-radius: 50%;
+    margin-top: 6rem;
+}
+.slider li:hover,
+.slider li:focus,
+.slider li:active,
+.slider li.active {
+    background: #e10011; 
+}
+.container-bg{
+
+    background: #fff;
+    margin-top: 8rem;
+    text-align: center;
+}
+.title{
+   padding:  4rem 0 0;  
+   font: 400 4.8rem 'Raleway',sans-serif;
+
+}
+.title--md{
+    
+    text-align: center;
+    text-transform: uppercase;
+}
+.underline{
+    padding:  1.5rem;  
+    text-align: center;
+}
+.subtitle{ 
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.5;  
+}
+/* <---> */
+.image__gallery{
+   padding-top: 10rem;
+   width: 1070px; 
+   margin: 0 auto;
+   text-align: center;
+}
+.row{
+    
+}
+.img {
+    display: inline-block;
+    font-size: 0;
+    width: 33%;
+    border-radius: 7px;
+    padding: 2rem;
+}
+.img--md{
+    display: inline-block;
+    width: 66%;
+}
+/* <---> */
+.form{
+    padding: 4.5rem 0;
+    text-align: center;   
+}
+.form input {
+    border-radius:  7rem 0 0 7rem; 
+    height: 7rem; 
+    width: 35%;
+    padding: 33px 0px 35px 45px ;
+    font-size: 1.8rem;
+    border: 2px solid #fff;
+    background: #fff url(../img/email.png) no-repeat 5% 50%;
+}
+.form button{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 25px 25px 27px 30px;
+    border-radius: 0 7rem 7rem 0; 
+    width: 25%;
+    border: 2px solid #e10011; 
+    background: #e10011; 
+    color: #fff;
+    border: none;
+   
+    cursor: pointer;
+}
+.form input:hover,
+.form input:focus,
+.form input:active, 
+.form button:hover,
+.form button:focus,
+.form button:active {
+    opacity: .7;
+}
+.profile__info{
+    
+    text-align: center;
+    display: inline-block;
+}
+.profile__info li a{
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    color: #979797;
+    background-color: #fff;
+    margin-left: 20px;
+}
+.profile__info i{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    position: absolute;
+    font-size: 3.5rem;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.profile__info a:hover,
+.profile__info a:focus {
+    color: red;
+    background: #ccc;
+}
+.copyright p {
+    color: #979797;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.copyright a {
+    color: #303030;
+    text-decoration: none;
+}
